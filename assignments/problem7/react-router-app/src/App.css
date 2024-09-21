@@ -1,0 +1,72 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+}
+
+nav {
+  padding: 1rem;
+  
+  width: 100%;
+  background-color: black;
+}
+
+nav a {
+  color: rgb(4, 0, 0);
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap:3rem;
+}
+
+
+
+h1 {
+  color: #333;
+}
+
+
+
+
+#userList li{
+  padding:1rem;
+  list-style: none;
+  text-align: left;
+  display: inline-block;
+  margin:1rem;
+  box-shadow: 0 0 5px grey;
+  border-radius: 0.3rem;
+}
+
+#userList li strong{
+  display: block;
+  margin-bottom: 0.5rem;
+  
+}
+
+button{
+  background-color: lightblue;
+  color: rgb(68, 61, 61);
+  border: none;
+  cursor: pointer;
+  margin-top: 3rem;
+  padding: 1rem;
+}
